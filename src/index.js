@@ -5,7 +5,7 @@ require('dotenv').config();
 const port = process.env.PORT;
 
 const { bookRouter } = require('./books/books-route');
-const { clientRouter } = require('../../src/clients/clients-route');
+const { clientRouter } = require('../src/clients/clients-route');
 
 app.use(express.json());
 
