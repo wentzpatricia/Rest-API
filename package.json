@@ -1,0 +1,22 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "API criada para a atividade avaliativa da disciplina de Desenvolvimento de Serviços e APIs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "keywords": [],
+  "author": "Patricia Wentz de Moraes <patriciawentzm@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "joi": "^13.1.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
